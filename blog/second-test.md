@@ -2,6 +2,6 @@
 path: /blog/second
 date: 2018-01-23T14:06:45.674Z
 title: Second Test
-image: static/assets/samuel.jpg
+image: ../../static/assets/samuel.jpg
 ---
 Et normalement, là je dois avoir du texte !
