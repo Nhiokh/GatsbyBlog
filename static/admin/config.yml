@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Nhiokh/GatsbyBlog
+  repo: Nhiokh/gatsby-blog
 
 media_folder: static/assets
 
