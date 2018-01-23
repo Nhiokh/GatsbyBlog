@@ -13,3 +13,7 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - { name: body, label: Content, widget: "markdown"}
+      - label: "Featured Image"
+        name: "Image"
+        widget: "image"
