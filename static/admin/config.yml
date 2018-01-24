@@ -10,10 +10,8 @@ collections:
     folder: blog
     create: true
     fields:
-      - { name: path, label: Path }
+      - { name: path, label: Url du post (commencer par "/") }
       - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: body, label: Content, widget: "markdown"}
-      - label: "Featured Image"
-        name: "image"
-        widget: "image"
+      - { name: title, label: Titre du post }
+      - { name: body, label: Contenu du post, widget: "markdown" }
+      - { name: image, label: Image de présentation }
