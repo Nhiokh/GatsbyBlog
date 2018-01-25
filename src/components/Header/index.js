@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 
 import './header.scss'
 
+import Logo from '../../../static/assets/menu-logo.svg'
+
 class Menu extends React.Component  {
   constructor(props){
     super(props)
@@ -80,6 +82,8 @@ const Header = () => (
     style={{
       background: '#5799a9',
       marginBottom: '1.45rem',
+      boxShadow: '0px 2px 5px 0px rgba(186,186,186,1)'
+
     }}
   >
     <div
@@ -98,12 +102,12 @@ const Header = () => (
             textShadow: 'none'
           }}
         >
-          <img
-            src='https://res.cloudinary.com/nhiokh/image/upload/c_scale,h_45,q_64/v1516876441/logo_xrxshx.png'
-            style={{
-              marginBottom: 0
-            }}
-          />
+          <svg style={{
+            width: 150,
+            height:50
+          }}>
+            <use xlinkHref={`#${Logo.id}`}/>
+          </svg>
         </Link>
       </span>
       <Menu />

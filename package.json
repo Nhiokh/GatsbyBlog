@@ -9,6 +9,7 @@
     "gatsby-plugin-netlify-cms": "^1.0.4",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-plugin-svg-sprite": "^1.0.0",
     "gatsby-plugin-typography": "^1.7.11",
     "gatsby-source-filesystem": "^1.5.14",
     "gatsby-transformer-remark": "^1.7.29",
