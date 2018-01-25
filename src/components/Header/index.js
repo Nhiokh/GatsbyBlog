@@ -25,20 +25,26 @@ class Menu extends React.Component  {
   }
 
   render(){
-    if (this.state.width > 700) {
+    if (this.state.width > 500) {
       return (
         <ul
           style={{
+            width: '100%',
             lineHeight: 'normal',
             margin: '0',
             marginLeft: 16,
             display: 'flex',
+            justifyContent: 'flex-end',
             alignItems: 'center',
             listStyleType: 'none',
             color: 'white'
           }}
         >
-          <li>hohoho</li>
+          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>About</li></Link>
+          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>UX</li></Link>
+          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Dev</li></Link>
+          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Blog</li></Link>
+          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Contact</li></Link>
         </ul>
       )
     } else {
@@ -72,7 +78,7 @@ const Header = () => (
   <div
     className='header'
     style={{
-      background: 'rebeccapurple',
+      background: '#5799a9',
       marginBottom: '1.45rem',
     }}
   >
@@ -81,7 +87,7 @@ const Header = () => (
         display: 'flex',
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '1.10rem 1rem',
       }}
     >
       <span style={{ margin: 0 }}>
@@ -89,10 +95,15 @@ const Header = () => (
           to="/"
           style={{
             color: 'white',
-            textDecoration: 'none',
+            textShadow: 'none'
           }}
         >
-          Place logo
+          <img
+            src='https://res.cloudinary.com/nhiokh/image/upload/c_scale,h_45,q_64/v1516876441/logo_xrxshx.png'
+            style={{
+              marginBottom: 0
+            }}
+          />
         </Link>
       </span>
       <Menu />
