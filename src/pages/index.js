@@ -33,11 +33,11 @@ const IndexPage = () => (
     />
     <h1
       style={{
-        textAlign:'center'
+        textAlign:'center',
+        margin: '1.25rem 0 2rem',
       }}
     >
-      Hi there !<br/>
-      My name is Samuel Abiassi, UX Designer and Web Developer
+      Hi there ! My name is Samuel Abiassi, UX Designer and Web Developer
     </h1>
     <hr
       style={{
