@@ -14,7 +14,7 @@ const Footer = () => (
         marginBottom:0,
         fontSize: '0.8em'
       }}
-    >Created with <Link to='https://reactjs.org/'>React</Link> | <Link to='https://www.gatsbyjs.org/'>Gatsby</Link> | <Link to='https://www.netlify.com/'>Netlify</Link> - 2018</p>
+    >Created with <a href='https://reactjs.org/'>React</a> | <a href='https://www.gatsbyjs.org/'>Gatsby</a> | <a href='https://www.netlify.com/'>Netlify</a> - 2018</p>
  </div>
 )
 

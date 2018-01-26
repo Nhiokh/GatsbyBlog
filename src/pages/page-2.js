@@ -7,7 +7,7 @@ const SecondPage = () => (
       Let's talk about UX Design
     </h1>
     <p>
-      First thing first, if you have no idea of what UX Design is, let me kindly suggest you to watch this video, made by the talented folks at <Link to='https://www.fiverr.com/'>Fiverr</Link> :
+      First thing first, if you have no idea of what UX Design is, let me kindly suggest you to watch this video, made by the talented folks at <a href='https://www.fiverr.com/'>Fiverr</a> :
     </p>
     <div
       style={{
@@ -43,7 +43,7 @@ const SecondPage = () => (
       That's what interviews, mock-ups, usability tests and UX Design tools are made for.
     </p>
     <h2>
-      Investigate, Prototype, Test, Learn, Repeat
+      Investigate, Ideate, Prototype, Test, Repeat
     </h2>
     <h3>
       How do I detect users habits?
@@ -53,14 +53,27 @@ const SecondPage = () => (
     </p>
     <p>
       I usually spend as much time as I can chatting with and observing end-users, in their own environment. Through this process, I usually detect what drives them, as well as their fears and 'no-goes'.
-      This lays a pretty good foundation to extrapolate on what the app I'm working on might need or surely does not.
+      This lays a pretty good foundation to extrapolate on what the app I'm working on might need or surely does not. I also find out there are more end-users targets than what would be pre-defined.
+      It is indeed very important to no close my mind on all the surrounding aspects that might show up in this phase.
+    </p>
+    <p>
+      To help visualize and schematize every informations gathered, I'm using tools like storyboards, experience maps, and personas.
+    </p>
+    <h3>
+      How do WE create the best solutions?
+    </h3>
+    <p>
+      Once all these informations are well represented, the whole team invested in the project (ideally) shoud then meet around theses and brainstorm on the best solutions to solve the users problematics uncovered.
+    </p>
+    <p>
+      There are many ways to do so, but never lost sight on the objective by making the team ask itself: 'does it answer their problematics in the most efficient and pleasing way?'
     </p>
     <h3>
       How do I create a solid UI?
     </h3>
     <p>
-      Chances are I have gathered enough datas to start prototyping UI mock-ups. That is when <Link to='https://www.adobe.com/fr/products/xd.html'>Adobe Experience Design</Link> comes into play.
-      Notice that I could as well use <Link to='https://balsamiq.com/'>Balsamiq</Link>, or <Link to='https://www.invisionapp.com/'>inVision</Link> for the matter.
+      Chances are we have gathered enough datas to start prototyping UI mock-ups. That is when <a href='https://www.adobe.com/fr/products/xd.html'>Adobe Experience Design</a> comes into play.
+      Notice that I could as well use <a href='https://balsamiq.com/'>Balsamiq</a>, or <a href='https://www.invisionapp.com/'>inVision</a> for the matter.
     </p>
     <p>
       I am using most of the best practice applied in the ergonomy and visual design fields, and constantly read, listen and watch pieces on these subjects.
@@ -69,7 +82,7 @@ const SecondPage = () => (
       Note that, if I've got enough time, I may also consider creating a functional prototype using React or Vue.
     </p>
     <h3>
-      How do I validate my prototypes?
+      How do I validate these prototypes?
     </h3>
     <p>
       Once the prototypes are ready to use comes the testing phase.
@@ -80,8 +93,36 @@ const SecondPage = () => (
     </p>
     <p>
       If you do not have a pool of beta-testers ready to give a hand, fear not. It may be unconventionnal, but guerilla-testing have also been a pretty effective way to test my previous works.
-      I usually hang around cafés and bars and ask people close to the target-users profile if they are willing to help me on the project I'm working on. Of course, free coffee/beer helps a lot!
+      I usually hang around cafés and bars and ask people close to the target-users profile if they are willing to help me on the project I'm working on. Of course, free coffees/beers help a lot!
     </p>
+    <h3>
+      What if your project is already online?
+    </h3>
+    <p>
+      There are tons of tools to help an app or a website past the production state.
+    </p>
+    <p>
+      One might start with the infos that Google Analytics is providing to detect where said app/website is lacking in good UX.
+    </p>
+    <p>
+      I have already worked with tools like Hotjar, and deployed A/B testing (you're currently being A/B tested by the way). These are excellent tools to test how your users are using what you presented to them.
+      However, it does not replace face-to-face interviews and observations phase.
+    </p>
+    <h2>Convinced? Want to know more? Contact me!</h2>
+    <form name="contact" netlify>
+      <p>
+        <label>Your Name: <input type="text" name="name"/></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email"/></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
   </div>
 )
 
