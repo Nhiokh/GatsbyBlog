@@ -110,7 +110,15 @@ const SecondPage = () => (
       I have already worked with tools like Hotjar, and deployed A/B testing (you're currently being A/B tested by the way). These are excellent tools to test how your users are using what you presented to them.
       However, it does not replace face-to-face interviews and observations phase.
     </p>
-    <h2>Convinced? Want to know more? Contact me!</h2>
+    <h2
+      style={{
+        textAlign:'center',
+        borderTop: '1px solid #aaa',
+        paddingTop:'24px'
+      }}
+    >
+      Convinced? Want to know more? Contact me!
+    </h2>
     <Contact/>
   </div>
 )

@@ -1,0 +1,23 @@
+form p {
+  margin-bottom: 16px;
+}
+
+.form-button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #5799a9;
+  padding: 16px 48px 16px 48px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s
+}
+
+.form-button:hover {
+  background: #5dafbd;
+  text-decoration: none;
+  transition: 0.2s
+}
