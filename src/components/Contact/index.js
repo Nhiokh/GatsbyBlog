@@ -21,23 +21,14 @@ export default class Contact extends React.Component {
 
   handleChange = (e) => {
     this.setState({[e.target.name]: e.target.value});
-  }
-
-  checkFormEntries = () => {
     if (this.state.name === '' || this.state.email === '' || this.state.message === '') {
-      this.setState({empty:true}, ()=>{
-        alert('You must fill all the fields');
-      })
+      this.setState({empty:true}, ()=>{alert('You must fill all the fields')})
     } else {
-      this.setState({empty:false}, ()=>{
-        console.log('All entries filled')
-        this.handleSubmit();
-      })
+      this.setState({empty:false}, ()=>{console.log('All entries filled')})
     }
   }
 
   handleSubmit = e => {
-    this.checkFormEntries();
     if (!this.state.empty) {
       fetch("/", {
         method: "POST",
