@@ -14,7 +14,7 @@ const IndexPage = () => (
     >
       <svg
         style={{
-          height: '30vh',
+          height: '18vh',
           zIndex:100
         }}
       >
@@ -28,7 +28,7 @@ const IndexPage = () => (
         borderColor: 'grey',
         background: 'light-grey',
         position: 'relative',
-        top: '-1vh',
+        top: '-0.7vh',
       }}
     />
     <h1
@@ -53,8 +53,8 @@ const IndexPage = () => (
     <h2>What if I told you that you could get both ?</h2>
     <p>You don't want your end users to leave your application just because it isn't good enough, right ?</p>
     <p>Well... worry not, my friend! You've met the perfect owl for the job!</p>
-    <p>You see, this website is the home of a special kind of bird. Not only one that knows how to develop web applications using the JAMStack, Progressive Web Apps, Service Workers etc., but one that cares about
-    how the final users are going to use them. From the look of it, to the whole experience.</p>
+    <p>You see, this website is the home of a special kind of bird. Not only one that knows how to develop web applications using the JAMStack, Progressive Web Apps, Service Workers etc.,
+    but one that cares about how the final users are going to use them. From the look of it, to the whole experience.</p>
     <h2>Want to learn more about me ?</h2>
     <p>Then let me start by <Link to="/page-2/">introducing myself.</Link></p>
     <p>Interested in the tools and skills I use in development? <Link to="/page-2/">Might as well go here.</Link></p>
