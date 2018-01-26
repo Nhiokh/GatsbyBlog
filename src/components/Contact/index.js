@@ -43,9 +43,8 @@ export default class Contact extends React.Component {
           alert("Success!")
         })
         .catch(error => alert(error));
-
-      e.preventDefault();
     }
+    e.preventDefault();
   };
 
   render() {
