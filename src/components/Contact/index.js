@@ -25,9 +25,14 @@ export default class Contact extends React.Component {
 
   checkFormEntries = () => {
     if (this.state.name === '' || this.state.email === '' || this.state.message === '') {
-      this.setState({empty:true}, ()=>{alert('You must fill all the fields')})
+      this.setState({empty:true}, ()=>{
+        alert('You must fill all the fields');
+      })
     } else {
-      this.setState({empty:false}, ()=>{console.log('All entries filled')})
+      this.setState({empty:false}, ()=>{
+        console.log('All entries filled')
+        this.handleSubmit();
+      })
     }
   }
 
@@ -73,19 +78,19 @@ export default class Contact extends React.Component {
           <p>
             <label>
               Your name:<br />
-            <input type="text" name="name" onChange={this.handleChange}/>
+            <input type="text" name="name" onChange={this.handleChange} value={this.state.name}/>
             </label>
           </p>
           <p>
             <label>
               Your email:<br />
-              <input type="email" name="email" onChange={this.handleChange}/>
+              <input type="email" name="email" onChange={this.handleChange} value={this.state.email}/>
             </label>
           </p>
           <p>
             <label>
               Message:<br />
-              <textarea name="message" onChange={this.handleChange}/>
+              <textarea name="message" onChange={this.handleChange} value={this.state.message}/>
             </label>
           </p>
           <p>
