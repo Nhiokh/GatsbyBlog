@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Contact from '../components/Contact/index'
+
 const SecondPage = () => (
   <div>
     <h1>
@@ -109,20 +111,7 @@ const SecondPage = () => (
       However, it does not replace face-to-face interviews and observations phase.
     </p>
     <h2>Convinced? Want to know more? Contact me!</h2>
-    <form name="contact" netlify>
-      <p>
-        <label>Your Name: <input type="text" name="name"/></label>
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email"/></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+    <Contact/>
   </div>
 )
 
