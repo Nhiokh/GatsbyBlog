@@ -32,17 +32,20 @@ export default class Contact extends React.Component {
   }
 
   handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() => {
-        alert("Success!")
+    this.checkFormEntries();
+    if (!this.state.empty) {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
       })
-      .catch(error => alert(error));
+        .then(() => {
+          alert("Success!")
+        })
+        .catch(error => alert(error));
 
-    e.preventDefault();
+      e.preventDefault();
+    }
   };
 
   render() {
