@@ -41,6 +41,12 @@ export default class Contact extends React.Component {
       })
         .then(() => {
           alert("Success!")
+          this.setState({
+            name: '',
+            email: '',
+            message: '',
+            empty: true
+          })
         })
         .catch(error => alert(error));
     }
