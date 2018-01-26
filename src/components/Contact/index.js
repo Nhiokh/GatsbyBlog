@@ -11,11 +11,24 @@ function encode(data) {
 export default class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      name: '',
+      email: '',
+      message: '',
+      empty: true
+    };
   }
 
   handleChange = (e) => {
     this.setState({[e.target.name]: e.target.value});
+  }
+
+  checkFormEntries = () => {
+    if (this.state.name === '' || this.state.email === '' || this.state.message === '') {
+      this.setState({empty:true}, ()=>{alert('You must fill all the fields')})
+    } else {
+      this.setState({empty:false}, ()=>{console.log('All entries filled')})
+    }
   }
 
   handleSubmit = e => {
@@ -24,7 +37,9 @@ export default class Contact extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Success!"))
+      .then(() => {
+        alert("Success!")
+      })
       .catch(error => alert(error));
 
     e.preventDefault();
