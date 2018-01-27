@@ -54,7 +54,7 @@ const DevPage = () => (
     <p>As a foot-note, I usually develop on Atom (Nuclide IDE).</p>
     <h2>Want to see by yourself?</h2>
     <p>
-      Here is a collection of my codepens using mostly React and Vue.
+      Here is a collection of some of my codepens, using mostly React and Vue.
     </p>
     <div
       style={{
