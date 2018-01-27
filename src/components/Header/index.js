@@ -43,8 +43,8 @@ class Menu extends React.Component  {
           }}
         >
           <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>About</li></Link>
-          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>UX</li></Link>
-          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Dev</li></Link>
+          <Link to="/ux-design/" style={{color: 'white', textShadow: 'none'}}><li>UX</li></Link>
+          <Link to="/dev-stack/" style={{color: 'white', textShadow: 'none'}}><li>Dev</li></Link>
           <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Blog</li></Link>
           <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Contact</li></Link>
         </ul>

@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import Contact from '../components/Contact/index'
 
-const SecondPage = () => (
+const UxPage = () => (
   <div>
     <h1>
       Let's talk about UX Design
@@ -123,4 +123,4 @@ const SecondPage = () => (
   </div>
 )
 
-export default SecondPage
+export default UxPage

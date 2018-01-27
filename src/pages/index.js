@@ -57,8 +57,8 @@ const IndexPage = () => (
     but one that cares about how the final users are going to use them. From the look of it, to the whole experience.</p>
     <h2>Want to learn more about me ?</h2>
     <p>Then let me start by <Link to="/page-2/">introducing myself.</Link></p>
-    <p>Interested in the tools and skills I use in development? <Link to="/page-2/">Might as well go here.</Link></p>
-    <p>Is it the UX process that have picked your interest? Then, <Link to="/page-2/">head there!</Link></p>
+    <p>Interested in the tools and skills I use in development? <Link to="/dev-stack/">Might as well go here.</Link></p>
+    <p>Is it the UX process that have picked your interest? Then, <Link to="/ux-design/">head there!</Link></p>
   </div>
 )
 
