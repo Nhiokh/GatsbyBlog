@@ -12,9 +12,10 @@ const imgLabelStyle = {
 const DevPage = () => (
   <div>
     <h1>I LOVE JavaScript</h1>
-    <p>Ok... this might not be the most popular thing to start of a conversation, but damn, I'll say it again.</p>
+    <p>Ok... this might not be the most popular thing to say to start a conversation.</p>
+    <p>But damn! I'll say it again.</p>
     <p>I. LOVE. JAVASCRIPT.</p>
-    <h2>I'm (mostly) a front-end developer</h2>
+    <h2>I'm a front-end developer</h2>
     <p>
       As a developer, I have mostly worked on client-side. Why? Well... mostly because of my marketing/communication/UX design background. I am attached to convey significant
       messages to users, because that's what is making me happy. And there isn't many ways to do it, especially if you're working on the server-side.

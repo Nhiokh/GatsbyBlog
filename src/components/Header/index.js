@@ -50,7 +50,7 @@ class Menu extends React.Component  {
           }}
         >
           <Link
-            to="/"
+            to="/about/"
             style={{color: 'white', textShadow: 'none'}}
           >
             <li>About</li>
@@ -98,7 +98,7 @@ class Menu extends React.Component  {
           }}
         >
           <Link
-            to="/"
+            to="/about/"
             style={linkStyle}
           >
             <span>About</span>
