@@ -67,6 +67,7 @@ const DevPage = () => (
     >
       <a
         href="https://codepen.io/Nhiokh/pen/xPWKgZ"
+        target="_blank"
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -86,6 +87,7 @@ const DevPage = () => (
       </a>
       <a
         href="https://codepen.io/Nhiokh/pen/EbLzWz"
+        target="_blank"
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -105,6 +107,7 @@ const DevPage = () => (
       </a>
       <a
         href="https://codepen.io/Nhiokh/pen/bYoZbw"
+        target="_blank"
         style={{
           display: 'flex',
           flexDirection: 'column',

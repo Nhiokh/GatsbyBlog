@@ -74,8 +74,8 @@ const UxPage = () => (
       How do I create a solid UI?
     </h3>
     <p>
-      Chances are we have gathered enough datas to start prototyping UI mock-ups. That is when <a href='https://www.adobe.com/fr/products/xd.html'>Adobe Experience Design</a> comes into play.
-      Notice that I could as well use <a href='https://balsamiq.com/'>Balsamiq</a>, or <a href='https://www.invisionapp.com/'>inVision</a> for the matter.
+      Chances are we have gathered enough datas to start prototyping UI mock-ups. That is when <a target="_blank" href='https://www.adobe.com/fr/products/xd.html'>Adobe Experience Design</a> comes into play.
+      Notice that I could as well use <a target="_blank" href='https://balsamiq.com/'>Balsamiq</a>, or <a target="_blank" href='https://www.invisionapp.com/'>inVision</a> for the matter.
     </p>
     <p>
       I am using most of the best practice applied in the ergonomy and visual design fields, and constantly read, listen and watch pieces on these subjects.
