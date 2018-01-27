@@ -27,6 +27,13 @@ class Menu extends React.Component  {
   }
 
   render(){
+    const linkStyle = {
+      display: 'flex',
+      justifyContent: 'center',
+      backgroundImage: 'none',
+      color: '#5799a9'
+    }
+
     if (this.state.width > 500) {
       return (
         <ul
@@ -42,11 +49,36 @@ class Menu extends React.Component  {
             color: 'white'
           }}
         >
-          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>About</li></Link>
-          <Link to="/ux-design/" style={{color: 'white', textShadow: 'none'}}><li>UX</li></Link>
-          <Link to="/dev-stack/" style={{color: 'white', textShadow: 'none'}}><li>Dev</li></Link>
-          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Blog</li></Link>
-          <Link to="/" style={{color: 'white', textShadow: 'none'}}><li>Contact</li></Link>
+          <Link
+            to="/"
+            style={{color: 'white', textShadow: 'none'}}
+          >
+            <li>About</li>
+          </Link>
+          <Link
+            to="/ux-design/"
+            style={{color: 'white', textShadow: 'none'}}
+          >
+            <li>UX</li>
+          </Link>
+          <Link
+            to="/dev-stack/"
+            style={{color: 'white', textShadow: 'none'}}
+          >
+            <li>Dev</li>
+          </Link>
+          <Link
+            to="/blog/"
+            style={{color: 'white', textShadow: 'none'}}
+          >
+            <li>Blog</li>
+          </Link>
+          <Link
+            to="/contact/"
+            style={{color: 'white', textShadow: 'none'}}
+          >
+            <li>Contact</li>
+          </Link>
         </ul>
       )
     } else {
@@ -65,11 +97,36 @@ class Menu extends React.Component  {
             fontFamily: 'sans-serif'
           }}
         >
-          <span>About</span>
-          <span>UX</span>
-          <span>Dev</span>
-          <span>Blog</span>
-          <span>Contact</span>
+          <Link
+            to="/"
+            style={linkStyle}
+          >
+            <span>About</span>
+          </Link>
+          <Link
+            to="/ux-design/"
+            style={linkStyle}
+          >
+            <span>UX</span>
+          </Link>
+          <Link
+            to="/dev-stack/"
+            style={linkStyle}
+          >
+            <span>Dev</span>
+          </Link>
+          <Link
+            to="/blog/"
+            style={linkStyle}
+          >
+            <span>Blog</span>
+          </Link>
+          <Link
+            to="/contact/"
+            style={linkStyle}
+          >
+            <span>Contact</span>
+          </Link>
         </div>
       )
     }
