@@ -48,6 +48,9 @@ const DevPage = () => (
     <p>
       I'm using Github for my versioning, and Netlify to host public projects. If you haven't tested this type of service yet, I strongly advise you to check it out.
     </p>
+    <p>
+      I already have worked with Progressive Web Apps and Service Workers, and to me, this is one of the biggest change that is happening in the web right now.
+    </p>
     <p>As a foot-note, I usually develop on Atom (Nuclide IDE).</p>
     <h2>Want to see by yourself?</h2>
     <p>
