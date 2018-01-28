@@ -34,7 +34,7 @@ class Menu extends React.Component  {
       color: '#5799a9'
     }
 
-    if (this.state.width > 500) {
+    if (this.state.width > 560) {
       return (
         <ul
           style={{

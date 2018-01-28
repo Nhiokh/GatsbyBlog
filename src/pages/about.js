@@ -54,7 +54,11 @@ const AboutPage = () => (
           color:'#5799a9'
         }}
       >Here is the playlist for my favorite tracks of 2017</p>
-      <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=playlist&id=3981000462&app_id=1" width="700" height="350"></iframe>
+      <div
+        style={{maxWidth:'95vw'}}
+      >
+        <iframe scrolling="no" frameBorder="0" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=350&height=350&color=007FEB&layout=dark&size=medium&type=playlist&id=3981000462&app_id=1" width="350" height="350"></iframe>
+      </div>
     </div>
   </div>
 )
