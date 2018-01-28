@@ -4,6 +4,35 @@ html {
 
 @media screen and (max-width: 500px){
   body {
-    margin-bottom: 60px;  
+    margin-bottom: 60px;
+  }
+}
+
+img {
+  margin-bottom:0
+}
+
+.about-top-page {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin:40px 0;
+
+  img {
+    width: 250px;
+  }
+
+  @media screen and (min-width: 700px){
+    h1 {
+      margin: 0 0 0 26px;
+    }
+  }
+
+  @media screen and (max-width: 700px){
+    flex-direction: column;
+
+    h1 {
+      margin-top: 24px;
+    }
   }
 }

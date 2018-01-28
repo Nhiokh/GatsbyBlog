@@ -70,6 +70,7 @@ const UxPage = () => (
     <p>
       There are many ways to do so, but never lost sight on the objective by making the team ask itself: 'does it answer their problematics in the most efficient and pleasing way?'
     </p>
+    <img src="https://res.cloudinary.com/nhiokh/image/upload/c_scale,f_auto,q_auto:eco,w_996/v1517133922/UX-2_lfqvi2.png" alt="UX design books"/>
     <h3>
       How do I create a solid UI?
     </h3>

@@ -20,6 +20,11 @@ const DevPage = () => (
       As a developer, I have mostly worked on client-side. Why? Well... mostly because of my marketing/communication/UX design background. I am attached to convey significant
       messages to users, because that's what is making me happy. And there isn't many ways to do it, especially if you're working on the server-side.
     </p>
+    <img
+      src="https://res.cloudinary.com/nhiokh/image/upload/q_auto:eco/v1517133662/CaptureDev_be6mve.png"
+      alt="Screen caption of JS code"
+      style={{marginBottom:'24px'}}
+    />
     <p>
       So I've been looking for the best tools to work with on this new Node.js era of the internet. And here are my weapons of choice.
     </p>

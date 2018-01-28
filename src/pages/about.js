@@ -2,7 +2,12 @@ import React from 'react'
 
 const AboutPage = () => (
   <div>
-    <h1>My name is Samuel Abiassi. Father, avid reader, gamer, and music lover</h1>
+    <div
+      className="about-top-page"
+    >
+      <img style={{marginBottom:'0'}} src="https://res.cloudinary.com/nhiokh/image/upload/c_scale,q_auto:good,w_300/v1517135025/Photo_e5ti7l.png" alt="Photo of Samuel Abiassi"/>
+      <h1>My name is Samuel Abiassi. Father, avid reader, gamer, and music lover</h1>
+    </div>
     <h2>I read books. Loads and loads of books.</h2>
     <p>
       I'm a big reader, and nothing has been as much important for my personal growth as this simple fact. From novels to essays. From science-fiction to marketing best-sellers.
@@ -14,6 +19,7 @@ const AboutPage = () => (
     <p>
       So if you need any good read, or if you know a must-have in mind, be sure to let me know.
     </p>
+    <img src="https://res.cloudinary.com/nhiokh/image/upload/c_scale,q_auto:eco,w_996/v1517133913/Books-2_iwipal.png" alt="My book shelves"/>
     <h2>I love to play video games</h2>
     <p>
       I've been playing for as long as I can remember.
@@ -33,6 +39,23 @@ const AboutPage = () => (
       Even though I'm not working as a music critique anymore, I still like to share my opinion and discover new musics. I enjoy metal as much as hip-hop, industrial, electro-music, pop or indies.
       It really doesn't matter.
     </p>
+    <div
+      style={{
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center',
+        justifyContent:'center'
+      }}
+    >
+      <p
+        style={{
+          marginBottom:8,
+          fontWeight:700,
+          color:'#5799a9'
+        }}
+      >Here is the playlist for my favorite tracks of 2017</p>
+      <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=playlist&id=3981000462&app_id=1" width="700" height="350"></iframe>
+    </div>
   </div>
 )
 
