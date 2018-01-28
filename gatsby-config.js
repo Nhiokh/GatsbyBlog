@@ -47,7 +47,7 @@ module.exports = {
         start_url: "/",
         background_color: "#eee",
         theme_color: "#5799a9",
-        display: "minimal-ui",
+        display: "standalone",
         icons: [
           {
             // Everything in /static will be copied to an equivalent
