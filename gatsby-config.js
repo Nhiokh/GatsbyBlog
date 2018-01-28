@@ -21,7 +21,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-svg-sprite',
-    {
+    /*{
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/favicon.png",
@@ -38,7 +38,7 @@ module.exports = {
           windows: false
         }
       }
-    },
+    },*/
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
