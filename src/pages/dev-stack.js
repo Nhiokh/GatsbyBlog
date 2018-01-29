@@ -11,14 +11,14 @@ const imgLabelStyle = {
 
 const DevPage = () => (
   <div>
-    <h1>I LOVE JavaScript</h1>
+    <h1>I LOVE JavaScript!</h1>
     <p>Ok... this might not be the most popular thing to say to start a conversation.</p>
     <p>But damn! I'll say it again.</p>
     <p>I. LOVE. JAVASCRIPT.</p>
     <h2>I'm a front-end developer</h2>
     <p>
       As a developer, I have mostly worked on client-side. Why? Well... mostly because of my marketing/communication/UX design background. I am attached to convey significant
-      messages to users, because that's what is making me happy. And there isn't many ways to do it, especially if you're working on the server-side.
+      messages to users, because that's what is making me happy. And there isn't many ways to do it, especially if you're working on server-side.
     </p>
     <img
       src="https://res.cloudinary.com/nhiokh/image/upload/q_auto:eco/v1517133662/CaptureDev_be6mve.png"
@@ -26,13 +26,13 @@ const DevPage = () => (
       style={{marginBottom:'24px'}}
     />
     <p>
-      So I've been looking for the best tools to work with on this new Node.js era of the internet. And here are my weapons of choice.
+      So I've been looking for the best tools to work with on this new 'Node.js era' of the internet. And here are my weapons of choice.
     </p>
     <h2>Frameworks, libraries and tools</h2>
     <p>
       For some times now, I've been playing with React. I've acquired a good grasp of the concepts and methodology around it, and did dive a lot on its ecosystem.
     </p>
-    <p>Namely, I've worked with :</p>
+    <p>Namely, I've worked with:</p>
     <ul>
       <li>React Router (self-explanatory)</li>
       <li>Apollo Server (client-side server handling GraphQL request)</li>
@@ -55,7 +55,7 @@ const DevPage = () => (
       I'm using Github for my versioning, and Netlify to host public projects. If you haven't tested this type of service yet, I strongly advise you to check it out.
     </p>
     <p>
-      I already have worked with Progressive Web Apps and Service Workers, and to me, this is one of the biggest change that is happening in the web right now.
+      I also already have worked with Progressive Web Apps and Service Workers, and to me, this is one of the biggest change that is happening in the web right now.
     </p>
     <p>As a foot-note, I usually develop on Atom (Nuclide IDE).</p>
     <h2>Want to see by yourself?</h2>

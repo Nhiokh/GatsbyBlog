@@ -29,14 +29,17 @@ const UxPage = () => (
       I've spent a lot of time around customers, in various markets and fields.
     </h2>
     <p>
-      I created ad campaigns for them. I created tools for them. I listened to them to provide the best service I could. And I learned. A LOT!
+      I created ad campaigns for them. I created print and digital tools for them. I listened to them to provide the best service I could. And I learned.
     </p>
     <p>
-      More often than not, you can hear CEOs and Managers say something that goes like: 'I know my customers. I know what they want.' Here is the thing: you may probably have a good idea of who they are
+      A lot!
+    </p>
+    <p>
+      More often than not, you can hear CEOs and Managers say something that goes like:'I know my customers. I know what they want.' Here is the thing: you may probably have a good idea of who they are
       and what they think they need (If not, you REALLY need to schedule a meeting with your marketing team...).
     </p>
     <p>
-      But do you know how to tailor an app to that audience just with that knowledge, right out of the blue? An app so compeling it will drive your users to check it over and over again with excitement?
+      But do you know how to tailor an app to that audience only based on that knowledge, right out of the blue? An app so compeling it will drive your users to check it over and over again with excitement?
     </p>
     <p>
       My bet is that you likely do not know how to achieve such a magic trick... and neither do I. (if you do, then what are you here for anyway?)

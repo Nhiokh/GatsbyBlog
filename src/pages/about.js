@@ -17,7 +17,7 @@ const AboutPage = () => (
       I need to be surrounded by books. They give me inspiration, confidence, and most of all, they keep my curiosity as sharp as it can be.
     </p>
     <p>
-      So if you need any good read, or if you know a must-have in mind, be sure to let me know.
+      So, if you need any good read, or if you have must-reads in mind, be sure to let me know.
     </p>
     <img src="https://res.cloudinary.com/nhiokh/image/upload/c_scale,q_auto:eco,w_996/v1517133913/Books-2_iwipal.png" alt="My book shelves"/>
     <h2>I love to play video games</h2>
@@ -57,7 +57,13 @@ const AboutPage = () => (
       <div
         style={{maxWidth:'95vw'}}
       >
-        <iframe scrolling="no" frameBorder="0" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=350&height=350&color=007FEB&layout=dark&size=medium&type=playlist&id=3981000462&app_id=1" width="350" height="350"></iframe>
+        <iframe
+          scrolling="no"
+          frameBorder="0"
+          src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=350&height=350&color=007FEB&layout=dark&size=medium&type=playlist&id=3981000462&app_id=1"
+          width="350"
+          height="350"
+        ></iframe>
       </div>
     </div>
   </div>
