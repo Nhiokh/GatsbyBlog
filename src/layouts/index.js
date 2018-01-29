@@ -12,8 +12,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Samuel Abiassi - Web Developer and UX/UI Designer"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Samuel Abiassi - Portfolio of a Web Developer and UX/UI Designer' },
+        { name: 'keywords', content: 'samuel, abiassi, portfolio, ux, design, web, developer, javascript, react, grenoble' },
       ]}
     />
     <Header />
