@@ -132,7 +132,7 @@ const DevPage = () => (
       </a>
     </div>
     <p>
-      You will also find react starter packs on my Github account.
+      You will also find react starter packs on <a href="https://github.com/Nhiokh">my Github account</a>.
     </p>
     <h2
       style={{
