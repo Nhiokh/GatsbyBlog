@@ -6,7 +6,7 @@ const AboutPage = () => (
       className="about-top-page"
     >
       <img style={{marginBottom:'0'}} src="https://res.cloudinary.com/nhiokh/image/upload/c_scale,q_auto:good,w_300/v1517135025/Photo_e5ti7l.png" alt="Photo of Samuel Abiassi"/>
-      <h1>My name is Samuel Abiassi. Father, avid reader, gamer, and music lover</h1>
+      <h1>My name is Samuel Abiassi. Father, avid reader, gamer, and music lover.</h1>
     </div>
     <h2>I read books. Loads and loads of books.</h2>
     <p>
