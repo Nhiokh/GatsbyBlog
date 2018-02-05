@@ -43,7 +43,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Samuel Abiassi - Portfolio",
-        short_name: "SamuelAbiassi",
+        short_name: "SamAbiassi",
         start_url: "/",
         background_color: "#eee",
         theme_color: "#5799a9",

@@ -9,7 +9,7 @@ const UxPage = () => (
       Let's talk about UX Design
     </h1>
     <p>
-      First thing first, if you have no idea of what UX Design is, let me kindly suggest you to watch this video, made by the talented folks at <a href='https://www.fiverr.com/'>Fiverr</a> :
+      First thing first, if you have no idea of what UX Design is, let me kindly suggest you to watch this video, made by the talented folks at <a href='https://www.fiverr.com/' target='_blank' rel='noopener'>Fiverr</a> :
     </p>
     <div
       style={{
@@ -78,8 +78,8 @@ const UxPage = () => (
       How do I create a solid UI?
     </h3>
     <p>
-      Chances are we have gathered enough datas to start prototyping UI mock-ups. That is when <a target="_blank" href='https://www.adobe.com/fr/products/xd.html'>Adobe Experience Design</a> comes into play.
-      Notice that I could as well use <a target="_blank" href='https://balsamiq.com/'>Balsamiq</a>, or <a target="_blank" href='https://www.invisionapp.com/'>inVision</a> for the matter.
+      Chances are we have gathered enough datas to start prototyping UI mock-ups. That is when <a target="_blank" rel='noopener' href='https://www.adobe.com/fr/products/xd.html'>Adobe Experience Design</a> comes into play.
+      Notice that I could as well use <a target="_blank" rel='noopener' href='https://balsamiq.com/'>Balsamiq</a>, or <a target="_blank" rel='noopener' href='https://www.invisionapp.com/'>inVision</a> for the matter.
     </p>
     <p>
       I am using most of the best practice applied in the ergonomy and visual design fields, and constantly read, listen and watch pieces on these subjects.

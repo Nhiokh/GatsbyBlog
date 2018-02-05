@@ -73,6 +73,7 @@ const DevPage = () => (
       <a
         href="https://codepen.io/Nhiokh/pen/xPWKgZ"
         target="_blank"
+        rel='noopener'
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -93,6 +94,7 @@ const DevPage = () => (
       <a
         href="https://codepen.io/Nhiokh/pen/EbLzWz"
         target="_blank"
+        rel='noopener'
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -113,6 +115,7 @@ const DevPage = () => (
       <a
         href="https://codepen.io/Nhiokh/pen/bYoZbw"
         target="_blank"
+        rel='noopener'
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -132,7 +135,7 @@ const DevPage = () => (
       </a>
     </div>
     <p>
-      You will also find react starter packs on <a href="https://github.com/Nhiokh">my Github account</a>.
+      You will also find react starter packs on <a href="https://github.com/Nhiokh" target="_blank" rel='noopener'>my Github account</a>.
     </p>
     <h2
       style={{
