@@ -12,7 +12,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Samuel Abiassi - Web Developer and UX/UI Designer"
       meta={[
-        { name: 'description', content: 'Samuel Abiassi - Portfolio of a Web Developer and UX/UI Designer' },
+        { name: 'description', content: 'Portfolio of Samuel Abiassi - Web Developer and UX/UI Designer - I mainly use JavaScript frameworks
+         (Angular5, Vue, React) and Adobe XD  – Living in Grenoble (France) – Don’t hesitate to contact me for business projects' },
         { name: 'keywords', content: 'samuel, abiassi, portfolio, ux, design, web, developer, javascript, react, grenoble' },
       ]}
     />
