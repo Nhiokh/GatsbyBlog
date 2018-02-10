@@ -29,17 +29,17 @@ const UxPage = () => (
       I've spent a lot of time around customers, in various markets and fields.
     </h2>
     <p>
-      I created ad campaigns for them. I created print and digital tools for them. I listened to them to provide the best service I could. And I learned.
+      I created ad campaigns for them. I created print and digital tools for them. I listened to them, trying to provide the best services I could.
     </p>
     <p>
-      A lot!
+      And I learned. A lot!
     </p>
     <p>
-      More often than not, you can hear CEOs and Managers say something that goes like:'I know my customers. I know what they want.' Here is the thing: you may probably have a good idea of who they are
+      Now, more often than not, you will hear CEOs and Managers say something that goes like:'I know my customers. I know what they want.' Here is the thing: you probably have a good idea of who they are
       and what they think they need (If not, you REALLY need to schedule a meeting with your marketing team...).
     </p>
     <p>
-      But do you know how to tailor an app to that audience only based on that knowledge, right out of the blue? An app so compeling it will drive your users to check it over and over again with excitement?
+      But do you know how to tailor an app to that audience, only based on that knowledge, right out of the blue? An app so compeling it will drive your users to check it over and over again with excitement?
     </p>
     <p>
       My bet is that you likely do not know how to achieve such a magic trick... and neither do I. (if you do, then what are you here for anyway?)
@@ -58,7 +58,7 @@ const UxPage = () => (
     </p>
     <p>
       I usually spend as much time as I can chatting with and observing end-users, in their own environment. Through this process, I usually detect what drives them, as well as their fears and 'no-goes'.
-      This lays a pretty good foundation to extrapolate on what the app I'm working on might need or surely does not. I also find out there are more end-users targets than what would be pre-defined.
+      This lays a pretty good foundation to extrapolate on what the app I'm working on might need or surely does not. This is also a good time to find out who are the targets the initial brief didn't even recognize.
       It is indeed very important to no close my mind on all the surrounding aspects that might show up in this phase.
     </p>
     <p>
@@ -68,10 +68,10 @@ const UxPage = () => (
       How do WE create the best solutions?
     </h3>
     <p>
-      Once all these informations are well represented, the whole team invested in the project (ideally) shoud then meet around theses and brainstorm on the best solutions to solve the users problematics uncovered.
+      Once all these informations well represented, the whole team invested in the project (ideally) shoud meet. It is then time to ideate and brainstorm on the best solutions to solve theses users problematics, together.
     </p>
     <p>
-      There are many ways to do so, but never lost sight on the objective by making the team ask itself: 'does it answer their problematics in the most efficient and pleasing way?'
+      There are many ways to do so, but never lose sight on the objective. To do so, I'm always asking the team this simple question:'does this solution answer their problematics in the most efficient and pleasing way?'
     </p>
     <img src="https://res.cloudinary.com/nhiokh/image/upload/c_scale,f_auto,q_auto:eco,w_996/v1517133922/UX-2_lfqvi2.png" alt="UX design books"/>
     <h3>
